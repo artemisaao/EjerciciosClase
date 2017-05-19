@@ -1,0 +1,81 @@
+html{
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+  color: #0C1F68;
+  font-size: 50px;    
+}
+
+h2 {
+  font-family: 'Rock Salt', cursive;
+  color: #C8F7F6;
+  font-size: 30px;    
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+td{
+  border-radius: 30px;
+  border:5px solid #C8F7F6;
+  width: 100px;
+  height:100px;
+  color: #C8F7F6;
+  font-size: 50px;
+  font-wheight: bold;
+  text-align: center;
+}
+
+td:hover{
+  border:5px solid #0C1F68;
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: #C8F7F6;
+  font-size:  50px;
+  font-weight: bold;
+  text-align: center;
+  color: #0C1F68;
+}
+
+.x{
+color: #C8F7F6;
+background-color: #0C1F68;
+}
+
+.O{
+background-color: #C8F7F6;
+color: #0C1F68;
+font-weight: bold;
+border:5px solid #0C1F68;
+}
+
+#reset{
+  border:5px solid #C8F7F6;
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: #0C1F68;
+  font-size:  50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#reset:hover{
+  border:5px solid #0C1F68;
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: #C8F7F6;
+  font-size:  50px;
+  font-weight: bold;
+  text-align: center;
+  color: #0C1F68;
+}
